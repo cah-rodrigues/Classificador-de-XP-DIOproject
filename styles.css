@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400..700&display=swap');
+
+:root {
+  --background-color: #fbf825d8;
+  --background-div-color: #FF8800;
+  --margin-div-color: #FF4848;
+  --text-color: #2c1220;
+  --input-color: #f1ef8a;
+  --button-color: #6F007C;
+  --button-hover-color: #A8007B;
+  --text-button-color: #fff;
+}
+
+body {
+    font-family: 'Press Start 2P', cursive;
+    background-color: var(--background-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+  }
+  
+  .container {
+    text-align: center;
+    background-color: var(--background-div-color);
+    padding: 20px;
+    border: 5px solid var(--margin-div-color);
+    box-shadow: 0 0 10px var(--margin-div-color);
+    width: 400px;
+    border-radius: 10px;
+  }
+  
+  h1 {
+    font-size: 26px;
+    font-family: "Pixelify Sans", sans-serif;
+    margin-bottom: 20px;
+    color: var(--title-color);
+  }
+  
+  label {
+    font-family: "Pixelify Sans", sans-serif;
+    display: block;
+    margin: 10px 0 5px;
+    color: var(--text-color);
+  }
+  
+  .input {
+    width: 80%;
+    padding: 10px;
+    border: 2px solid #8abeb7;
+    border-radius: 5px;
+    background-color: var(--input-color);
+    color: var(--text-color);
+    font-family: "Pixelify Sans", sans-serif;
+    font-size: 14px;
+    text-align: center;
+  }
+  
+  .button {
+    background-color: var(--button-color);
+    color: var(--text-button-color);
+    border: none;
+    padding: 10px 20px;
+    margin-top: 20px;
+    font-size: 16px;
+    cursor: pointer;
+    font-family: "Pixelify Sans", sans-serif;
+    border-radius: 5px;
+  }
+  
+  .button:hover {
+    background-color: var(--button-hover-color);
+    color: var(--text-button-color);
+  }
+  
+  .resultado {
+    margin-top: 20px;
+    font-size: 18px;
+    color: #f0c674;
+    border-top: 2px solid #8abeb7;
+    padding-top: 10px;
+  }
+  
+  /* Font for pixel art style */
+  @import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+  
