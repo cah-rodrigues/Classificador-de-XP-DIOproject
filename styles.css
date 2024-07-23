@@ -9,10 +9,12 @@
   --button-color: #6F007C;
   --button-hover-color: #A8007B;
   --text-button-color: #fff;
+
+  --font-family: "Pixelify Sans", sans-serif;
 }
 
 body {
-    font-family: 'Press Start 2P', cursive;
+    font-family: var(--font-family);
     background-color: var(--background-color);
     display: flex;
     justify-content: center;
@@ -33,13 +35,13 @@ body {
   
   h1 {
     font-size: 26px;
-    font-family: "Pixelify Sans", sans-serif;
+    font-family: var(--font-family);
     margin-bottom: 20px;
     color: var(--title-color);
   }
   
   label {
-    font-family: "Pixelify Sans", sans-serif;
+    font-family:var(--font-family);
     display: block;
     margin: 10px 0 5px;
     color: var(--text-color);
@@ -52,7 +54,7 @@ body {
     border-radius: 5px;
     background-color: var(--input-color);
     color: var(--text-color);
-    font-family: "Pixelify Sans", sans-serif;
+    font-family: var(--font-family);
     font-size: 14px;
     text-align: center;
   }
@@ -65,7 +67,7 @@ body {
     margin-top: 20px;
     font-size: 16px;
     cursor: pointer;
-    font-family: "Pixelify Sans", sans-serif;
+    font-family: var(--font-family);
     border-radius: 5px;
   }
   
@@ -75,13 +77,12 @@ body {
   }
   
   .resultado {
+    font-family: var(--font-family);
     margin-top: 20px;
     font-size: 18px;
-    color: #f0c674;
-    border-top: 2px solid #8abeb7;
+    color: var(--text-color);
+    border-top: 2px solid var(--margin-div-color);
     padding-top: 10px;
   }
-  
-  /* Font for pixel art style */
-  @import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
   
